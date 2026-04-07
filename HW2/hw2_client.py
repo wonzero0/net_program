@@ -9,7 +9,7 @@ print(msg.decode())
 
 name = "wonyoung Yeom"
 sock.send(name.encode())
-
+ 
 id_data = sock.recv(4)
 student_id = int.from_bytes(id_data, 'big')
 print(student_id)
