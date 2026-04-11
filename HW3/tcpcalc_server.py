@@ -1,5 +1,5 @@
 from socket import *
-import re # 파이싱을 위한 정규표현식 라이브러리
+import re 
 
 s = socket(AF_INET, SOCK_STREAM)
 s.bind(('', 3333))
