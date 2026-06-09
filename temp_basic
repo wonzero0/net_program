@@ -1,0 +1,15 @@
+TCP 기본 템플릿
+서버:
+socket → bind → listen → accept → recv → send
+
+클라:
+socket → connect → send → recv
+
+
+
+UDP 기본 템플릿
+서버:
+socket → bind → recvfrom → sendto
+
+클라:
+socket → sendto → recvfrom
